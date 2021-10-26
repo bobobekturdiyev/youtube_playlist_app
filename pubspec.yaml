@@ -1,0 +1,53 @@
+name: youtube_playlist_app
+description: Youtube Playlist App
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.23.0+1
+  youtube_player_flutter: ^8.0.0
+  flutter_bloc: ^7.1.0
+  dio: ^4.0.0
+  get_it: ^7.2.0
+  json_serializable: ^4.1.2
+  build_runner: ^2.1.0
+  equatable: ^2.0.3
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svg/
+    - assets/fonts/
+
+  fonts:
+    - family: NunitoSans Bold
+      fonts:
+        - asset: assets/fonts/nunitosans_bold.ttf
+    - family: NunitoSans Regular
+      fonts:
+        - asset: assets/fonts/nunitosans_regular.ttf
+    - family: NunitoSans Light
+      fonts:
+        - asset: assets/fonts/nunitosans_light.ttf
+    - family: NunitoSans SemiBold
+      fonts:
+        - asset: assets/fonts/nunitosans_semibold.ttf
